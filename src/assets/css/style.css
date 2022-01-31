@@ -1,0 +1,71 @@
+/* Elementos repetidos em todo o projeto */
+.card{
+    background-color: #202020 !important
+}
+
+div.bg-dark{
+    background-color: #121212 !important
+}
+nav.bg-dark{
+    background-color: #121212 !important
+}
+button.btn-primary{
+    background-color: #833c80 !important;
+    border-color: #833c80;
+}
+
+button.btn-primary:active, button.btn-primary:hover{
+    background-color: #833c80 !important;
+    border-color: #833c80;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link{
+    color: white !important;
+}
+
+
+.bg-fundo{
+    background-color: #202020
+}
+/* ==================================== */
+
+/* Estilo dos cards de publicação */
+
+.card-rounded{
+    border-radius: 1.25rem !important;
+    /* max-height: 70vh; */
+}
+
+
+.btn-deslike{ 
+    color: #833c80 !important;
+    font-size: 1.8rem !important;
+}
+.btn-like{ 
+    color: #efefef !important;
+    font-size: 1.8rem !important;
+}
+
+a.nav-link.dropdown-toggle{
+    outline: none !important;
+    color: transparent !important;
+}
+a.nav-link.dropdown-toggle:focus{
+    outline: none !important;
+    color: transparent !important;
+}
+
+
+/* Select escolha de album */
+.select-escolha-album button{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0;
+    height: calc(1.5em + 0.75rem + 2px)
+}
+.select-escolha-album select{
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0;
+}
+

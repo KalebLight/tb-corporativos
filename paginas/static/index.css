@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header{
+    padding: 9px 0;
+    text-align: center;
+    border-style: solid;
+    padding-left: 75%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+
+header li{   
+    display: inline-block;
+    padding-left: 5%;    
+}
+
+header li a{
+    text-decoration: none;
+    color: black;
+}
+
+header li div{
+    border-radius: 100px; 
+    background-color: gray;
+    height: 30px;
+    width: 30px;   
+}
+
+#brand{
+    float: left;
+    margin-left: -1100px;
+    margin-top: 13px;
+}
+
+/* As divs do feed ficam aqui */
+.container{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.divID{    
+    margin-left: 20px;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+}
+
+/* Div que conterá a foto da primeira div do container */
+.foto{
+    border-radius: 100px; 
+    background-color: gray;
+    height: 170px;
+    width: 170px;  
+    position: relative;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.foto > button{
+    height: 30px;
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+/* Fim da div que conterá a foto da primeira div do container */
+
+/* Div do container que conterá o formulário  */
+.form{    
+    margin-left: 60px;
+    width: 730px;
+    height: 300px;
+    border-style: solid;
+    position: relative;
+}
+
+#inputText{
+    position: relative;
+    resize: none;
+    height: 210px; 
+    width: 50%;   
+    margin-top: 6%;
+    margin-left: 20%;    
+}
+
+.btnForm{
+    position: absolute;
+    bottom: 10px;
+ }
+
+#btnSubmitForm{
+    position: absolute;
+    right: 100px;
+    
+}
+/* Fim da div do container que conterá o formulário  */
+
+/* Div do container que será vertical*/
+.vert{
+    margin-left: 60px;
+    width: 300px;
+    height: 600px;
+    border-style: solid;
+    
+}
+/* Fim da div do container que será vertical*/
+
+/* Div que conterá o conteúdo do feed */
+.feed{
+    bottom: 230px;
+    margin-left: 30%;
+    position: relative;
+    width: 550px;
+    height: 450px;
+}    
+
+.post{    
+    border-style: solid;
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    top: 220px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)     
+    
+}
+
+.fotoPerfilPost{   
+    border-radius: 100px; 
+    background-color: gray;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 60px;
+    width: 60px; 
+    position: relative;   
+      
+}
+
+.fotoPost{
+    width: 400px;
+    height: 300px;
+    margin-left: 10%;
+    background-position: cover;
+    
+}
+
+.fotoPost > img {
+    
+    margin-top: 25px;
+    max-width: 400px;
+    max-height: 300px;
+}
